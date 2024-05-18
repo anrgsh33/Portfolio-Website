@@ -5,7 +5,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 
   margin-bottom: 50px;
 }
@@ -40,7 +42,7 @@ body {
 }
 
 #skill-title {
-  color: #fff;
+  color: #005f69;
   text-align: center;
 }
 
@@ -62,7 +64,7 @@ body {
 }
 
 .icon-container {
-  color: #fff;
+  color: #005f69;
   font-size: calc(5px + 1vw);
 }
 

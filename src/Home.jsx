@@ -7,15 +7,15 @@ const Home = () => {
       <div className="home">
         <div className="name-container">
           <h1 className="name">Anurag Singh</h1>
-          <h3 className="title">Web Developer</h3>
+          <h2 className="title">Web Developer</h2>
         </div>
         <div className="brief-about">
           <p>
-            Welcome to my portfolio website! Here, you'll discover the journey
+            Welcome to my portfolio website! Here, you will discover the journey
             of my skills, experiences, and projects. Explore through to get a
             glimpse of my passion for web development and technology. Feel free
             to navigate around and learn more about me and my work. Thank you
-            for visiting!"
+            for visiting!
           </p>
         </div>
       </div>
@@ -26,11 +26,7 @@ const Home = () => {
 
 const Skill = () => {
   return (
-    <div
-      className="skill-container"
-      style={{
-        backgroundImage: `url(https://images.unsplash.com/photo-1547190027-9156686aa2f0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
-      }}>
+    <div className="skill-container">
       <h2 id="skill-title">Skills</h2>
 
       <div className="container">
