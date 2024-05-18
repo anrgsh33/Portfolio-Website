@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(248, 242, 233);
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  margin-bottom: 50px;
+}
+
+.home-container {
+  padding-top: 80px;
+  width: 100%;
+}
+
+.name-container {
+  flex: 1;
+  color: #005f69;
+  width: 80%;
+  padding: 20px 0px 20px 40px;
+}
+
+.name-container h1 {
+  font-size: calc(30px + 2vw);
+  min-font-size: 24px;
+}
+
+.brief-about {
+  flex: 1;
+}
+
+.skill-container {
+  padding-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-bottom: 20px;
+}
+
+#skill-title {
+  color: #fff;
+  text-align: center;
+}
+
+.skill-container h2 {
+  font-size: calc(10px + 1vw);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container1,
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+.icon-container {
+  color: #fff;
+  font-size: calc(5px + 1vw);
+}
+
+.icon {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.icon svg {
+  width: calc(40px + 1vw);
+  height: calc(40px + 1vw);
+  animation: bounce 3s ease-in-out infinite; /* Play the animation infinitely */
+}
+
+/* Animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0); /* Initial and final positions */
+  }
+  50% {
+    transform: translateY(-5px); /* Bounce up */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .name-container,
+  .brief-about {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .brief-about {
+    padding-bottom: 15px;
+  }
+  .container {
+    display: block;
+  }
+  .container1,
+  .container2 {
+    display: block;
+  }
+}
