@@ -1,3 +1,146 @@
-.link-icon {
-  font-size: 30px;
+/* Root section */
+.contact-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 20px 20px;
+}
+/* Contact info (email/phone side by side) */
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.contact-heading {
+  text-align: center;
+  color: #005f69;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+/* Contact info (email/phone side by side) */
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.contact-card {
+  padding: 12px 18px;
+  border-radius: 12px;
+  background-color: #f8f8f8;
+  transition: all 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  color: #005f69;
+  display: flex;
+  align-items: center;
+}
+
+.contact-value {
+  color: #005f69;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.contact-value:hover {
+  text-decoration: underline;
+}
+
+/* Platform handles */
+.sub-heading {
+  color: #005f69;
+  margin-bottom: 15px;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Grid for profile handles */
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-name {
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: #005f69;
+}
+
+.contact-link {
+  color: #005f69;
+  text-decoration: none;
+}
+
+/* Resume download */
+.resume-download {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .contact-heading {
+    font-size: 1.6rem;
+  }
+
+  .contact-value,
+  .contact-name {
+    font-size: 0.95rem;
+  }
+
+  .contact-item,
+  .contact-card {
+    padding: 10px 14px;
+  }
+
+  .resume-download button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
 }

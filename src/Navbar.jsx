@@ -69,7 +69,7 @@ const MenuItem = ({ open, onClose }) => {
               </a>
             </li>
             <li>
-              <a href="#" onClick={toggleDrawer(false)}>
+              <a href="#contact" onClick={toggleDrawer(false)}>
                 Contact
               </a>
             </li>

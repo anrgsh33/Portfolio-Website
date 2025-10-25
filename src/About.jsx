@@ -1,6 +1,7 @@
 import * as React from "react";
 import Paper from "@mui/material/Paper";
 import "./about.css";
+
 const About = () => {
   return (
     <section id="about-me" className="about-container">
@@ -8,7 +9,7 @@ const About = () => {
 
       <div id="about-img">
         <p id="about">
-          Hello i am Anurag Singh. I am a web developer currently in my final
+          Hello I am Anurag Singh. I am a web developer currently in my final
           year pursuing Bachelor of Technology in Computer Science & Engineering
           from Heritage Institute of Technology, Kolkata with a strong
           foundation in web technologies including HTML, CSS, JavaScript,
@@ -39,19 +40,19 @@ function SimplePaper() {
               <li>
                 <p>
                   <strong>Bachelor of Technology in CSE</strong> <br />
-                  Heritage institute of Technology,Kolkata
+                  Heritage Institute of Technology, Kolkata
                   <br />
-                  2020-2024, CGPA : 8.64
+                  2020–2024, CGPA: 8.64
                 </p>
               </li>
               <br />
               <li>
                 <p>
-                  <strong> Annual Intermediate Examination (BSEB)</strong>
+                  <strong>Annual Intermediate Examination (BSEB)</strong>
                   <br />
-                  Sr. Sec. School,Kajipur,Saran
+                  Sr. Sec. School, Kajipur, Saran
                   <br />
-                  2017-2019, Per : 80.6%
+                  2017–2019, Percentage: 80.6%
                 </p>
               </li>
               <br />
@@ -59,13 +60,16 @@ function SimplePaper() {
                 <p>
                   <strong>Secondary School Examination (BSEB)</strong>
                   <br />
-                  High School Kazipur Saran 2016-2017, per : 70.6%
+                  High School Kazipur, Saran
+                  <br />
+                  2016–2017, Percentage: 70.6%
                 </p>
               </li>
             </ul>
           </div>
         </Paper>
       </div>
+
       <div className="paper-container2">
         <Paper elevation={10}>
           <div className="MuiPaper-root2">
@@ -73,9 +77,28 @@ function SimplePaper() {
             <ul>
               <li>
                 <p>
-                  <strong>Exposys Data Labs</strong>
+                  <strong>
+                    System Engineer — Tata Consultancy Services (TCS)
+                  </strong>
                 </p>
-                <p>Web Developer Internship</p> <p>may 2023 - June 2023</p>
+                <p>Full-time | Dec 2024 – Present (11 months)</p>
+                <p>
+                  <strong>Tech Stack:</strong> Java, Spring Boot, PL/SQL,
+                  RESTful APIs
+                </p>
+              </li>
+              <br />
+              <li>
+                <p>
+                  <strong>
+                    Associate Software Engineer — Indus Net Technologies
+                  </strong>
+                </p>
+                <p>Full-time | Jun 2024 – Dec 2024 (7 months)</p>
+                <p>
+                  <strong>Tech Stack:</strong> Java, Spring Boot, Spring
+                  Security, Microservices
+                </p>
               </li>
             </ul>
           </div>
